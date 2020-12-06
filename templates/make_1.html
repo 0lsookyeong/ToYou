@@ -1,66 +1,44 @@
 <!DOCTYPE HTML>
 
 <html land="en">
-<style>
-.whole {
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 414px;
-    width: 100%;
-    height: max-content;
-    flex-direction: column;
-    -webkit-box-align: center;
-    /* align-items: center; */
 
-   }
-</style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=3,minimum-scale=1,user-scalable=no,viewport-fit=cover">
 
-
+  <link rel="stylesheet" href="../asset/css/main.css" />
 
 <title>toyou</title>
 
 
 </head>
-<body style="display: block;">
+<body>
   <div id="wrap">
     <div class="whole">
 
-      <header style="display: flex;">
-      <img src="..\images\To.you.PNG" style="size:auto; height:70px">
-      <nav style="justify-content: flex-end; -webkit-flex-grow: 1;display: -webkit-flex;">
-							<a href="#menu" style="padding:10px 15px;font-weight: bold;font-size: 30px; text-decoration:none;">=</a>
+      <header id="header">
+      <img id="logo" src="..\images\To.you.PNG">
+      <nav id="nav" >
+							<a id="menu" href="#menu">=</a>
 			</nav>
     </header>
 
-    <div style=" /*left: 41px;top: 254px*/;">
-<h3 style="width: 189px;height: 46px;font-family: Roboto;font-style: normal;font-weight: normal;
-line-height: 42px;text-align: center;color: #000000;">작성하기</h3>
-  <div style="width: 400px;height: 400px; margin-left:2%; margin-bottom: 10%;background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.5);
-box-sizing: border-box;
-border-radius: 25px;">
+    <div >
+      <h3 id="name">작성하기</h3>
+      <div id="writeform">
 
-  </div>
+      </div>
 
     </div>
 
-    <div style="display: flex;justify-content: space-between; margin-left:3%;margin-right:3%;margin-bottom: 20%;">
-      <button style="width: 118px;    height: 37px;font-size: 18px;  " >단색</button>
-      <button style="width: 118px;
-      height: 37px;font-size: 18px;    " >배경</button>
-      <button style="width: 118px;
-      height: 37px;font-size: 18px; " >사진</button>
+    <div id="choice">
+      <button id="choicebtn">단색</button>
+      <button id="choicebtn">배경</button>
+      <button id="choicebtn">사진</button>
 
   </div>
-  <div style="display: flex;  justify-content: center;  margin-bottom: 20%;">
-    <a href ="make_2.html"type="button" style="background-color: #FF8A65;display: inline-block;text-align: center;border:0;outline:0;
-   color: white;width:30%;line-height: 37px;  font-weight: bold;border-radius: 25px; text-decoration:none;">다음</button>
+  <div id="center">
+    <a id="next_make1" href ="make_2.html"type="button" >다음</a>
   </div>
 
 
